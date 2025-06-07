@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubina's Kitchen - Homemade Delights</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Rubina's Kitchen</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count">0</span>
+                </div>
+            </nav>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Taste the Love, Delivered to Your Door!</h1>
+                <p>Homemade food and bakery items, freshly prepared in Khulna.</p>
+                <a href="#products" class="btn">Explore Our Menu</a>
+            </div>
+        </section>
+
+        <section id="products" class="products-section">
+            <div class="container">
+                <h2>Our Delicious Offerings</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200?text=Delicious+Biryani" alt="Delicious Biryani">
+                        <h3>Chicken Biryani</h3>
+                        <p class="price">৳350</p>
+                        <p class="description">Fragrant Basmati rice cooked with tender chicken and aromatic spices.</p>
+                        <button class="add-to-cart" data-product-id="1" data-product-name="Chicken Biryani" data-price="350">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200?text=Fresh+Cupcakes" alt="Fresh Cupcakes">
+                        <h3>Vanilla Cupcakes (6 pcs)</h3>
+                        <p class="price">৳280</p>
+                        <p class="description">Soft vanilla cupcakes with creamy buttercream frosting.</p>
+                        <button class="add-to-cart" data-product-id="2" data-product-name="Vanilla Cupcakes" data-price="280">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200?text=Local+Sweets" alt="Local Sweets">
+                        <h3>Misti Doi</h3>
+                        <p class="price">৳200</p>
+                        <p class="description">Traditional sweetened yogurt, a delightful Bengali dessert.</p>
+                        <button class="add-to-cart" data-product-id="3" data-product-name="Misti Doi" data-price="200">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x200?text=Chocolate+Cake" alt="Chocolate Cake">
+                        <h3>Chocolate Fudge Cake</h3>
+                        <p class="price">৳850</p>
+                        <p class="description">Rich and moist chocolate cake with a decadent fudge frosting.</p>
+                        <button class="add-to-cart" data-product-id="4" data-product-name="Chocolate Fudge Cake" data-price="850">Add to Cart</button>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Rubina's Kitchen</h2>
+                <p>At Rubina's Kitchen, we believe in the magic of homemade food. Every dish and bakery item is prepared with the freshest local ingredients and a sprinkle of love. Our mission is to bring the comfort and authentic taste of home-cooked meals and delightful baked goods directly to your doorstep in Khulna.</p>
+                <p>We prioritize hygiene, quality, and your satisfaction. From hearty main courses to delectable desserts, experience the difference of truly homemade goodness with Rubina's Kitchen.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have questions or want to place a custom order? Feel free to contact us!</p>
+                <p><i class="fas fa-phone"></i> +880 1XXXXXXXXX</p>
+                <p><i class="fas fa-envelope"></i> info@rubinaskitchen.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Khulna, Bangladesh</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/rubinaskitchen" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rubina's Kitchen. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
